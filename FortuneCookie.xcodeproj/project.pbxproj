@@ -15,6 +15,9 @@
 		5948CF1026E1FD9900C36601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5948CF0E26E1FD9900C36601 /* LaunchScreen.storyboard */; };
 		5948CF1B26E1FD9900C36601 /* FortuneCookieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948CF1A26E1FD9900C36601 /* FortuneCookieTests.swift */; };
 		5948CF2626E1FD9900C36601 /* FortuneCookieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948CF2526E1FD9900C36601 /* FortuneCookieUITests.swift */; };
+		82285A74E5CB522C201E9181 /* Pods_FortuneCookie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1F31AC7D82F90948284F54 /* Pods_FortuneCookie.framework */; };
+		AA90CF32C9AB29ACCEB9C5A6 /* Pods_FortuneCookie_FortuneCookieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308FF4C021E386D021304B17 /* Pods_FortuneCookie_FortuneCookieUITests.framework */; };
+		F7B0F0C6C25CD49DD58CD99B /* Pods_FortuneCookieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F4656D87C9D8177A513F67 /* Pods_FortuneCookieTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6EB84F60572045ABFFBD18 /* Pods-FortuneCookie-FortuneCookieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneCookie-FortuneCookieUITests.debug.xcconfig"; path = "Target Support Files/Pods-FortuneCookie-FortuneCookieUITests/Pods-FortuneCookie-FortuneCookieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		261278D5B9D272B0BC79A542 /* Pods-FortuneCookieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneCookieTests.release.xcconfig"; path = "Target Support Files/Pods-FortuneCookieTests/Pods-FortuneCookieTests.release.xcconfig"; sourceTree = "<group>"; };
+		308FF4C021E386D021304B17 /* Pods_FortuneCookie_FortuneCookieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortuneCookie_FortuneCookieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B651ABFE88666F9BAEB5E6 /* Pods-FortuneCookie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneCookie.release.xcconfig"; path = "Target Support Files/Pods-FortuneCookie/Pods-FortuneCookie.release.xcconfig"; sourceTree = "<group>"; };
 		5948CF0026E1FD9700C36601 /* FortuneCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortuneCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5948CF0326E1FD9700C36601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5948CF0526E1FD9700C36601 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		5948CF2126E1FD9900C36601 /* FortuneCookieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneCookieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5948CF2526E1FD9900C36601 /* FortuneCookieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCookieUITests.swift; sourceTree = "<group>"; };
 		5948CF2726E1FD9900C36601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1F31AC7D82F90948284F54 /* Pods_FortuneCookie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortuneCookie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32E22ABAAA8FB10DDA9862B /* Pods-FortuneCookie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneCookie.debug.xcconfig"; path = "Target Support Files/Pods-FortuneCookie/Pods-FortuneCookie.debug.xcconfig"; sourceTree = "<group>"; };
+		EF2412DFBFBAEEA2CD7E51C7 /* Pods-FortuneCookieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneCookieTests.debug.xcconfig"; path = "Target Support Files/Pods-FortuneCookieTests/Pods-FortuneCookieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4F4656D87C9D8177A513F67 /* Pods_FortuneCookieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortuneCookieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6808993E926E35DF0E288FF /* Pods-FortuneCookie-FortuneCookieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneCookie-FortuneCookieUITests.release.xcconfig"; path = "Target Support Files/Pods-FortuneCookie-FortuneCookieUITests/Pods-FortuneCookie-FortuneCookieUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82285A74E5CB522C201E9181 /* Pods_FortuneCookie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B0F0C6C25CD49DD58CD99B /* Pods_FortuneCookieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA90CF32C9AB29ACCEB9C5A6 /* Pods_FortuneCookie_FortuneCookieUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		348129034F89A97C3096F227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C1F31AC7D82F90948284F54 /* Pods_FortuneCookie.framework */,
+				308FF4C021E386D021304B17 /* Pods_FortuneCookie_FortuneCookieUITests.framework */,
+				F4F4656D87C9D8177A513F67 /* Pods_FortuneCookieTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50DD677A24795526EF07FAD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E32E22ABAAA8FB10DDA9862B /* Pods-FortuneCookie.debug.xcconfig */,
+				34B651ABFE88666F9BAEB5E6 /* Pods-FortuneCookie.release.xcconfig */,
+				1B6EB84F60572045ABFFBD18 /* Pods-FortuneCookie-FortuneCookieUITests.debug.xcconfig */,
+				F6808993E926E35DF0E288FF /* Pods-FortuneCookie-FortuneCookieUITests.release.xcconfig */,
+				EF2412DFBFBAEEA2CD7E51C7 /* Pods-FortuneCookieTests.debug.xcconfig */,
+				261278D5B9D272B0BC79A542 /* Pods-FortuneCookieTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5948CEF726E1FD9700C36601 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				5948CF1926E1FD9900C36601 /* FortuneCookieTests */,
 				5948CF2426E1FD9900C36601 /* FortuneCookieUITests */,
 				5948CF0126E1FD9700C36601 /* Products */,
+				50DD677A24795526EF07FAD2 /* Pods */,
+				348129034F89A97C3096F227 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5948CF2A26E1FD9900C36601 /* Build configuration list for PBXNativeTarget "FortuneCookie" */;
 			buildPhases = (
+				DE8DF39E9A4A56FE42F67CFD /* [CP] Check Pods Manifest.lock */,
 				5948CEFC26E1FD9700C36601 /* Sources */,
 				5948CEFD26E1FD9700C36601 /* Frameworks */,
 				5948CEFE26E1FD9700C36601 /* Resources */,
+				31579E1B918403CBFC597B13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5948CF2D26E1FD9900C36601 /* Build configuration list for PBXNativeTarget "FortuneCookieTests" */;
 			buildPhases = (
+				89CC7E434F5E1295166631C8 /* [CP] Check Pods Manifest.lock */,
 				5948CF1226E1FD9900C36601 /* Sources */,
 				5948CF1326E1FD9900C36601 /* Frameworks */,
 				5948CF1426E1FD9900C36601 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5948CF3026E1FD9900C36601 /* Build configuration list for PBXNativeTarget "FortuneCookieUITests" */;
 			buildPhases = (
+				300E0BFD204E13A31806D2C7 /* [CP] Check Pods Manifest.lock */,
 				5948CF1D26E1FD9900C36601 /* Sources */,
 				5948CF1E26E1FD9900C36601 /* Frameworks */,
 				5948CF1F26E1FD9900C36601 /* Resources */,
+				48731A94B8ACCB738754B587 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		300E0BFD204E13A31806D2C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortuneCookie-FortuneCookieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31579E1B918403CBFC597B13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FortuneCookie/Pods-FortuneCookie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FortuneCookie/Pods-FortuneCookie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FortuneCookie/Pods-FortuneCookie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48731A94B8ACCB738754B587 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FortuneCookie-FortuneCookieUITests/Pods-FortuneCookie-FortuneCookieUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FortuneCookie-FortuneCookieUITests/Pods-FortuneCookie-FortuneCookieUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FortuneCookie-FortuneCookieUITests/Pods-FortuneCookie-FortuneCookieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89CC7E434F5E1295166631C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortuneCookieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE8DF39E9A4A56FE42F67CFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortuneCookie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5948CEFC26E1FD9700C36601 /* Sources */ = {
@@ -433,10 +582,13 @@
 		};
 		5948CF2B26E1FD9900C36601 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32E22ABAAA8FB10DDA9862B /* Pods-FortuneCookie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 45CHC22UNS;
 				INFOPLIST_FILE = FortuneCookie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +596,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.fastlane.FortuneCookie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = wild_dev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,10 +604,13 @@
 		};
 		5948CF2C26E1FD9900C36601 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B651ABFE88666F9BAEB5E6 /* Pods-FortuneCookie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 45CHC22UNS;
 				INFOPLIST_FILE = FortuneCookie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +618,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.fastlane.FortuneCookie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = wild_dev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,6 +626,7 @@
 		};
 		5948CF2E26E1FD9900C36601 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2412DFBFBAEEA2CD7E51C7 /* Pods-FortuneCookieTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +648,7 @@
 		};
 		5948CF2F26E1FD9900C36601 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261278D5B9D272B0BC79A542 /* Pods-FortuneCookieTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +670,7 @@
 		};
 		5948CF3126E1FD9900C36601 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6EB84F60572045ABFFBD18 /* Pods-FortuneCookie-FortuneCookieUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +690,7 @@
 		};
 		5948CF3226E1FD9900C36601 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6808993E926E35DF0E288FF /* Pods-FortuneCookie-FortuneCookieUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
